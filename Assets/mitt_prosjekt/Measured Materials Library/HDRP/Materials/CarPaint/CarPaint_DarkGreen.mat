@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7054583736651919684
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CarPaint_DarkGreen
+  m_Shader: {fileID: -6465566751694194690, guid: c7773ed5ee5bae642a200a36718b50f3,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 5255f1cd622ba12448bda8e58c7b0505, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentBackface
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - Vector1_1E073C19: 0.788
+    - Vector1_2BC3876C: 0.941
+    - Vector1_36125720: 0.83
+    - Vector1_49C052DA: 1
+    - Vector1_856C34E2: 0.562
+    - Vector1_A98DF435: 1.313
+    - Vector1_C7D33666: 2.146
+    m_Colors:
+    - Color_CF7B3627: {r: 0.06666665, g: 0.14901957, b: 0.06274508, a: 0}
+    - Color_F141EB95: {r: 1, g: 0, b: 0.72638416, a: 0}
+  m_BuildTextureStacks: []
